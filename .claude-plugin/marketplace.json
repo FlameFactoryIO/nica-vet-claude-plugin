@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nica-vet",
+  "description": "The nica.vet plugin for Claude Code",
+  "owner": {
+    "name": "Flame Factory",
+    "email": "hm@flamefactory.io"
+  },
+  "plugins": [
+    {
+      "name": "nica-vet",
+      "description": "Connects Claude Code to nica.vet through its MCP server",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

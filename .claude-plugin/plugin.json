@@ -1,0 +1,25 @@
+{
+  "name": "nica-vet",
+  "version": "0.2.0",
+  "description": "Connects Claude Code to nica.vet: the nica.vet MCP server tools (customers, patients, appointments, catalog, inventory gaps) with sign-in, write confirmations and an operations skill",
+  "author": {
+    "name": "Flame Factory",
+    "email": "hm@flamefactory.io"
+  },
+  "homepage": "https://nica.vet/ai",
+  "repository": "https://github.com/FlameFactoryIO/nica-vet-claude-plugin",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://nica.vet/ai",
+  "supportUrl": "https://nica.vet/soporte",
+  "privacyPolicyUrl": "https://nica.vet/privacidad",
+  "keywords": ["nica.vet", "mcp", "veterinary", "operations"],
+  "userConfig": {
+    "mcpUrl": {
+      "type": "string",
+      "title": "nica.vet MCP URL",
+      "description": "MCP endpoint of the nica.vet API you connect to; keep the default for production, set http://localhost:3001/mcp for a local API",
+      "default": "https://ai.nica.vet/mcp"
+    }
+  }
+}

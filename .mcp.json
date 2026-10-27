@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nica-vet": {
+      "type": "http",
+      "url": "${user_config.mcpUrl}"
+    }
+  }
+}
