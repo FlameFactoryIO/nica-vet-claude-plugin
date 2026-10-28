@@ -2,6 +2,8 @@
 
 Operate nica.vet through its MCP operation registry (`POST /mcp` on the brand's MCP host, `https://ai.nica.vet/mcp`). Every tool is one registered operation, authorized, audited, and scoped to one Org and one membership: the person who connected.
 
+Directory status: submitted to Anthropic's Claude directory on 2026-10-28 (MCP connector `nica-vet` and this plugin bundle); until approval install from the repository as below.
+
 A person connects by signing in: the assistant opens nica.vet's consent screen (`/connect-ai` on operator-web); the person signs in, picks the Org and the areas, signs in again and approves. Nothing is copied by hand. The connection acts as that person, inside what their role reaches, never on `platform` or `identity`, with every write confirmed per call.
 
 Members who prefer an API key connect it from the nica.vet app (Configuración › Claves de API); that path is documented there, not in this plugin.

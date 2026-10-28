@@ -1,6 +1,7 @@
 {
   "name": "nica-vet",
-  "version": "0.2.0",
+  "displayName": "nica.vet",
+  "version": "0.2.1",
   "description": "Connects Claude Code to nica.vet: the nica.vet MCP server tools (customers, patients, appointments, catalog, inventory gaps) with sign-in, write confirmations and an operations skill",
   "author": {
     "name": "Flame Factory",
